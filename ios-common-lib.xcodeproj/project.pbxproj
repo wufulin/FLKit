@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		695993A317C757B20095C79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
-		695993A817C757B20095C79F /* ios_common_lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 695993A717C757B20095C79F /* ios_common_lib.h */; };
-		695993AA17C757B20095C79F /* ios_common_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 695993A917C757B20095C79F /* ios_common_lib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +17,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				695993A817C757B20095C79F /* ios_common_lib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +26,6 @@
 		6959939F17C757B20095C79F /* libios-common-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-common-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695993A217C757B20095C79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		695993A617C757B20095C79F /* ios-common-lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-common-lib-Prefix.pch"; sourceTree = "<group>"; };
-		695993A717C757B20095C79F /* ios_common_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_common_lib.h; sourceTree = "<group>"; };
-		695993A917C757B20095C79F /* ios_common_lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_common_lib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +68,6 @@
 		695993A417C757B20095C79F /* ios-common-lib */ = {
 			isa = PBXGroup;
 			children = (
-				695993A717C757B20095C79F /* ios_common_lib.h */,
-				695993A917C757B20095C79F /* ios_common_lib.m */,
 				695993A517C757B20095C79F /* Supporting Files */,
 			);
 			path = "ios-common-lib";
@@ -139,7 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				695993AA17C757B20095C79F /* ios_common_lib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +234,7 @@
 				695993AF17C757B20095C79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
