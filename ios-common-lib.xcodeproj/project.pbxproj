@@ -23,6 +23,13 @@
 /* Begin PBXBuildFile section */
 		695075B317CC576600BF3810 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075AF17CC576600BF3810 /* BaseViewController.m */; };
 		695075B417CC576600BF3810 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075B117CC576600BF3810 /* NSLogExtend.m */; };
+		695075C417CC745700BF3810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
+		695075D317CC746A00BF3810 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695075D217CC746A00BF3810 /* SenTestingKit.framework */; };
+		695075D517CC747A00BF3810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695075D417CC747A00BF3810 /* UIKit.framework */; };
+		695075DF17CC751000BF3810 /* NSLogExtendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075DE17CC751000BF3810 /* NSLogExtendTests.m */; };
+		695075E717CC762300BF3810 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075B117CC576600BF3810 /* NSLogExtend.m */; };
+		695075F517CC78EA00BF3810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695075F317CC78EA00BF3810 /* InfoPlist.strings */; };
+		695075F617CC78F300BF3810 /* Tests-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 695075EA17CC776700BF3810 /* Tests-Prefix.pch */; };
 		695993A317C757B20095C79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,12 +50,30 @@
 		695075AF17CC576600BF3810 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		695075B017CC576600BF3810 /* NSLogExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogExtend.h; sourceTree = "<group>"; };
 		695075B117CC576600BF3810 /* NSLogExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogExtend.m; sourceTree = "<group>"; };
+		695075BF17CC745700BF3810 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		695075D217CC746A00BF3810 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		695075D417CC747A00BF3810 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		695075DD17CC751000BF3810 /* NSLogExtendTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogExtendTests.h; sourceTree = "<group>"; };
+		695075DE17CC751000BF3810 /* NSLogExtendTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogExtendTests.m; sourceTree = "<group>"; };
+		695075E817CC773D00BF3810 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		695075EA17CC776700BF3810 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		695075F417CC78EA00BF3810 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6959939F17C757B20095C79F /* libios-common-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-common-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695993A217C757B20095C79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		695993A617C757B20095C79F /* ios-common-lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-common-lib-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		695075BB17CC745700BF3810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695075D517CC747A00BF3810 /* UIKit.framework in Frameworks */,
+				695075D317CC746A00BF3810 /* SenTestingKit.framework in Frameworks */,
+				695075C417CC745700BF3810 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6959939C17C757B20095C79F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,10 +85,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		695075C517CC745700BF3810 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				695075DD17CC751000BF3810 /* NSLogExtendTests.h */,
+				695075DE17CC751000BF3810 /* NSLogExtendTests.m */,
+				695075C617CC745700BF3810 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		695075C617CC745700BF3810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				695075F317CC78EA00BF3810 /* InfoPlist.strings */,
+				695075EA17CC776700BF3810 /* Tests-Prefix.pch */,
+				695075E817CC773D00BF3810 /* Tests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6959939617C757B20095C79F = {
 			isa = PBXGroup;
 			children = (
 				695993A417C757B20095C79F /* ios-common-lib */,
+				695075C517CC745700BF3810 /* Tests */,
 				695993A117C757B20095C79F /* Frameworks */,
 				695993A017C757B20095C79F /* Products */,
 			);
@@ -73,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				6959939F17C757B20095C79F /* libios-common-lib.a */,
+				695075BF17CC745700BF3810 /* Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +127,8 @@
 		695993A117C757B20095C79F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				695075D417CC747A00BF3810 /* UIKit.framework */,
+				695075D217CC746A00BF3810 /* SenTestingKit.framework */,
 				695993A217C757B20095C79F /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -108,6 +157,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		695075BE17CC745700BF3810 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695075CF17CC745700BF3810 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				695075BA17CC745700BF3810 /* Sources */,
+				695075BB17CC745700BF3810 /* Frameworks */,
+				695075BC17CC745700BF3810 /* Resources */,
+				695075BD17CC745700BF3810 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 695075BF17CC745700BF3810 /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		6959939E17C757B20095C79F /* ios-common-lib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 695993AD17C757B20095C79F /* Build configuration list for PBXNativeTarget "ios-common-lib" */;
@@ -148,9 +215,22 @@
 			targets = (
 				6959939E17C757B20095C79F /* ios-common-lib */,
 				695075B517CC57B200BF3810 /* ios-common-lib doc set */,
+				695075BE17CC745700BF3810 /* Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		695075BC17CC745700BF3810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695075F617CC78F300BF3810 /* Tests-Prefix.pch in Resources */,
+				695075F517CC78EA00BF3810 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		695075B917CC57C400BF3810 /* ShellScript */ = {
@@ -166,9 +246,31 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"NetEase\" \\\n--company-id \"com.netease.vip\" \\\n--install-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--merge-categories \\\n--exit-threshold 2 \\\n--docset-platform-family iphoneos \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/README.md\" \\\n\"${PROJECT_DIR}/${PROJECT_NAME}\"";
 		};
+		695075BD17CC745700BF3810 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		695075BA17CC745700BF3810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695075E717CC762300BF3810 /* NSLogExtend.m in Sources */,
+				695075DF17CC751000BF3810 /* NSLogExtendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6959939B17C757B20095C79F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -179,6 +281,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		695075F317CC78EA00BF3810 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695075F417CC78EA00BF3810 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		695075B717CC57B200BF3810 /* Debug */ = {
@@ -192,6 +305,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		695075D017CC745700BF3810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		695075D117CC745700BF3810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -282,6 +425,16 @@
 				695075B817CC57B200BF3810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695075CF17CC745700BF3810 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695075D017CC745700BF3810 /* Debug */,
+				695075D117CC745700BF3810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6959939A17C757B20095C79F /* Build configuration list for PBXProject "ios-common-lib" */ = {
 			isa = XCConfigurationList;
