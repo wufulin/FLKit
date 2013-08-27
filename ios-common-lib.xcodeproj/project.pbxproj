@@ -6,7 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		695075B517CC57B200BF3810 /* ios-common-lib doc set */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 695075B617CC57B200BF3810 /* Build configuration list for PBXAggregateTarget "ios-common-lib doc set" */;
+			buildPhases = (
+				695075B917CC57C400BF3810 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "ios-common-lib doc set";
+			productName = "ios-common-lib doc set";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		695075B317CC576600BF3810 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075AF17CC576600BF3810 /* BaseViewController.m */; };
+		695075B417CC576600BF3810 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075B117CC576600BF3810 /* NSLogExtend.m */; };
 		695993A317C757B20095C79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +39,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		695075AE17CC576600BF3810 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		695075AF17CC576600BF3810 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		695075B017CC576600BF3810 /* NSLogExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogExtend.h; sourceTree = "<group>"; };
+		695075B117CC576600BF3810 /* NSLogExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogExtend.m; sourceTree = "<group>"; };
 		6959939F17C757B20095C79F /* libios-common-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-common-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695993A217C757B20095C79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		695993A617C757B20095C79F /* ios-common-lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-common-lib-Prefix.pch"; sourceTree = "<group>"; };
@@ -68,6 +88,10 @@
 		695993A417C757B20095C79F /* ios-common-lib */ = {
 			isa = PBXGroup;
 			children = (
+				695075AE17CC576600BF3810 /* BaseViewController.h */,
+				695075AF17CC576600BF3810 /* BaseViewController.m */,
+				695075B017CC576600BF3810 /* NSLogExtend.h */,
+				695075B117CC576600BF3810 /* NSLogExtend.m */,
 				695993A517C757B20095C79F /* Supporting Files */,
 			);
 			path = "ios-common-lib";
@@ -123,21 +147,54 @@
 			projectRoot = "";
 			targets = (
 				6959939E17C757B20095C79F /* ios-common-lib */,
+				695075B517CC57B200BF3810 /* ios-common-lib doc set */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		695075B917CC57C400BF3810 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"NetEase\" \\\n--company-id \"com.netease.vip\" \\\n--install-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--merge-categories \\\n--exit-threshold 2 \\\n--docset-platform-family iphoneos \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/README.md\" \\\n\"${PROJECT_DIR}/${PROJECT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6959939B17C757B20095C79F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695075B317CC576600BF3810 /* BaseViewController.m in Sources */,
+				695075B417CC576600BF3810 /* NSLogExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		695075B717CC57B200BF3810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		695075B817CC57B200BF3810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		695993AB17C757B20095C79F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -218,6 +275,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		695075B617CC57B200BF3810 /* Build configuration list for PBXAggregateTarget "ios-common-lib doc set" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695075B717CC57B200BF3810 /* Debug */,
+				695075B817CC57B200BF3810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6959939A17C757B20095C79F /* Build configuration list for PBXProject "ios-common-lib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
