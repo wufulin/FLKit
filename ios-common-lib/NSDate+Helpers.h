@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/// NSDate 类别.
 @interface NSDate (Helpers)
 
 /**
@@ -21,7 +22,7 @@
 /**
  * 根据系统的样式格式化日期.
  *
- * @param style 系统的默认日期样式，参考@see NSDateFormatterStyle.
+ * @param style 系统的默认日期样式，参考see NSDateFormatterStyle.
  * @return 返回日期格式化后的NSString值.
  */
 - (NSString *)formatWithStyle:(NSDateFormatterStyle)style;

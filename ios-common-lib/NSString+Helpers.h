@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/// NSString 类别.
 @interface NSString (Helpers)
 
 /// 计算字符串的MD5值.
