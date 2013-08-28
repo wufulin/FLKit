@@ -31,6 +31,10 @@
 		695075F517CC78EA00BF3810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695075F317CC78EA00BF3810 /* InfoPlist.strings */; };
 		695075F617CC78F300BF3810 /* Tests-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 695075EA17CC776700BF3810 /* Tests-Prefix.pch */; };
 		695993A317C757B20095C79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
+		69C99D4917CD9F3000177A23 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4817CD9F3000177A23 /* NSString+Helpers.m */; };
+		69C99D4A17CD9F3000177A23 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4817CD9F3000177A23 /* NSString+Helpers.m */; };
+		69C99D4C17CDC65E00177A23 /* libcommonCrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C99D4B17CDC65E00177A23 /* libcommonCrypto.dylib */; };
+		69C99D4F17CDC8BC00177A23 /* NSString+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4E17CDC8BC00177A23 /* NSString+HelperTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +65,11 @@
 		6959939F17C757B20095C79F /* libios-common-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-common-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695993A217C757B20095C79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		695993A617C757B20095C79F /* ios-common-lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-common-lib-Prefix.pch"; sourceTree = "<group>"; };
+		69C99D4717CD9F3000177A23 /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
+		69C99D4817CD9F3000177A23 /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
+		69C99D4B17CDC65E00177A23 /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
+		69C99D4D17CDC8BC00177A23 /* NSString+HelperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HelperTests.h"; sourceTree = "<group>"; };
+		69C99D4E17CDC8BC00177A23 /* NSString+HelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HelperTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C99D4C17CDC65E00177A23 /* libcommonCrypto.dylib in Frameworks */,
 				695993A317C757B20095C79F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +100,8 @@
 			children = (
 				695075DD17CC751000BF3810 /* NSLogExtendTests.h */,
 				695075DE17CC751000BF3810 /* NSLogExtendTests.m */,
+				69C99D4D17CDC8BC00177A23 /* NSString+HelperTests.h */,
+				69C99D4E17CDC8BC00177A23 /* NSString+HelperTests.m */,
 				695075C617CC745700BF3810 /* Supporting Files */,
 			);
 			path = Tests;
@@ -127,6 +139,7 @@
 		695993A117C757B20095C79F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69C99D4B17CDC65E00177A23 /* libcommonCrypto.dylib */,
 				695075D417CC747A00BF3810 /* UIKit.framework */,
 				695075D217CC746A00BF3810 /* SenTestingKit.framework */,
 				695993A217C757B20095C79F /* Foundation.framework */,
@@ -141,6 +154,8 @@
 				695075AF17CC576600BF3810 /* BaseViewController.m */,
 				695075B017CC576600BF3810 /* NSLogExtend.h */,
 				695075B117CC576600BF3810 /* NSLogExtend.m */,
+				69C99D4717CD9F3000177A23 /* NSString+Helpers.h */,
+				69C99D4817CD9F3000177A23 /* NSString+Helpers.m */,
 				695993A517C757B20095C79F /* Supporting Files */,
 			);
 			path = "ios-common-lib";
@@ -268,6 +283,8 @@
 			files = (
 				695075E717CC762300BF3810 /* NSLogExtend.m in Sources */,
 				695075DF17CC751000BF3810 /* NSLogExtendTests.m in Sources */,
+				69C99D4A17CD9F3000177A23 /* NSString+Helpers.m in Sources */,
+				69C99D4F17CDC8BC00177A23 /* NSString+HelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +294,7 @@
 			files = (
 				695075B317CC576600BF3810 /* BaseViewController.m in Sources */,
 				695075B417CC576600BF3810 /* NSLogExtend.m in Sources */,
+				69C99D4917CD9F3000177A23 /* NSString+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +415,15 @@
 				DSTROOT = /tmp/ios_common_lib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-common-lib/ios-common-lib-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -409,7 +435,15 @@
 				DSTROOT = /tmp/ios_common_lib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-common-lib/ios-common-lib-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
