@@ -38,7 +38,6 @@
 		69C549FC17CDF71200AF086E /* UIColor+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549FB17CDF71200AF086E /* UIColor+HelperTests.m */; };
 		69C99D4917CD9F3000177A23 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4817CD9F3000177A23 /* NSString+Helpers.m */; };
 		69C99D4A17CD9F3000177A23 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4817CD9F3000177A23 /* NSString+Helpers.m */; };
-		69C99D4C17CDC65E00177A23 /* libcommonCrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C99D4B17CDC65E00177A23 /* libcommonCrypto.dylib */; };
 		69C99D4F17CDC8BC00177A23 /* NSString+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4E17CDC8BC00177A23 /* NSString+HelperTests.m */; };
 		69C99D5217CDE07700177A23 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D5117CDE07700177A23 /* NSDate+Helpers.m */; };
 		69C99D5317CDE07700177A23 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D5117CDE07700177A23 /* NSDate+Helpers.m */; };
@@ -105,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C99D4C17CDC65E00177A23 /* libcommonCrypto.dylib in Frameworks */,
 				695993A317C757B20095C79F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
