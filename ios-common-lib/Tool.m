@@ -10,4 +10,8 @@
 
 @implementation Tool
 
+- (void)setNavigationBarBackground:(UINavigationBar *)navigationBar withImageName:(NSString *)imageName {
+	[navigationBar setBackgroundImage:[UIImage imageNamed:imageName] forBarMetrics:UIBarMetricsDefault];
+}
+
 @end
