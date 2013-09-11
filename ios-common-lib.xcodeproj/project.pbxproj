@@ -31,6 +31,8 @@
 		695075F517CC78EA00BF3810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695075F317CC78EA00BF3810 /* InfoPlist.strings */; };
 		695075F617CC78F300BF3810 /* Tests-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 695075EA17CC776700BF3810 /* Tests-Prefix.pch */; };
 		695993A317C757B20095C79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
+		69BB0B0A17E019EE00DC02F5 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB0B0917E019EE00DC02F5 /* Tool.m */; };
+		69BB0B0B17E019EE00DC02F5 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB0B0917E019EE00DC02F5 /* Tool.m */; };
 		69C549F417CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */; };
 		69C549F517CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */; };
 		69C549F817CDF44700AF086E /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549F717CDF44700AF086E /* UIColor+Helpers.m */; };
@@ -72,6 +74,8 @@
 		6959939F17C757B20095C79F /* libios-common-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-common-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695993A217C757B20095C79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		695993A617C757B20095C79F /* ios-common-lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-common-lib-Prefix.pch"; sourceTree = "<group>"; };
+		69BB0B0817E019EE00DC02F5 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		69BB0B0917E019EE00DC02F5 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 		69C549F217CDF18F00AF086E /* NSUserDefaults+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Helpers.h"; sourceTree = "<group>"; };
 		69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Helpers.m"; sourceTree = "<group>"; };
 		69C549F617CDF44700AF086E /* UIColor+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helpers.h"; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */,
 				69C549F617CDF44700AF086E /* UIColor+Helpers.h */,
 				69C549F717CDF44700AF086E /* UIColor+Helpers.m */,
+				69BB0B0817E019EE00DC02F5 /* Tool.h */,
+				69BB0B0917E019EE00DC02F5 /* Tool.m */,
 				695993A517C757B20095C79F /* Supporting Files */,
 			);
 			path = "ios-common-lib";
@@ -316,6 +322,7 @@
 				69C549F517CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */,
 				69C549F917CDF44700AF086E /* UIColor+Helpers.m in Sources */,
 				69C549FC17CDF71200AF086E /* UIColor+HelperTests.m in Sources */,
+				69BB0B0B17E019EE00DC02F5 /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +336,7 @@
 				69C99D5217CDE07700177A23 /* NSDate+Helpers.m in Sources */,
 				69C549F417CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */,
 				69C549F817CDF44700AF086E /* UIColor+Helpers.m in Sources */,
+				69BB0B0A17E019EE00DC02F5 /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
