@@ -28,7 +28,7 @@
  * @param imageName 图片名.
  * @return void
  */
-- (void)setNavigationBarBackground:(UINavigationBar *)navigationBar
++ (void)setNavigationBarBackground:(UINavigationBar *)navigationBar
 					 withImageName:(NSString *)imageName;
 
 @end
