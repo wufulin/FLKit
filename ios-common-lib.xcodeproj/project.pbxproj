@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		69428D5E17F2D5BD007BB7E9 /* UIFont+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69428D5D17F2D5BD007BB7E9 /* UIFont+Helpers.m */; };
 		695075B317CC576600BF3810 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075AF17CC576600BF3810 /* BaseViewController.m */; };
 		695075B417CC576600BF3810 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075B117CC576600BF3810 /* NSLogExtend.m */; };
 		695075C417CC745700BF3810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
@@ -59,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		69428D5C17F2D5BD007BB7E9 /* UIFont+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Helpers.h"; sourceTree = "<group>"; };
+		69428D5D17F2D5BD007BB7E9 /* UIFont+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Helpers.m"; sourceTree = "<group>"; };
 		695075AE17CC576600BF3810 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		695075AF17CC576600BF3810 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		695075B017CC576600BF3810 /* NSLogExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogExtend.h; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */,
 				69C549F617CDF44700AF086E /* UIColor+Helpers.h */,
 				69C549F717CDF44700AF086E /* UIColor+Helpers.m */,
+				69428D5C17F2D5BD007BB7E9 /* UIFont+Helpers.h */,
+				69428D5D17F2D5BD007BB7E9 /* UIFont+Helpers.m */,
 				69BB0B0817E019EE00DC02F5 /* Tool.h */,
 				69BB0B0917E019EE00DC02F5 /* Tool.m */,
 				695993A517C757B20095C79F /* Supporting Files */,
@@ -337,6 +342,7 @@
 				69C549F417CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */,
 				69C549F817CDF44700AF086E /* UIColor+Helpers.m in Sources */,
 				69BB0B0A17E019EE00DC02F5 /* Tool.m in Sources */,
+				69428D5E17F2D5BD007BB7E9 /* UIFont+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
