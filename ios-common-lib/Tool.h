@@ -25,6 +25,9 @@
 // 导航条高度宏定义.
 #define NAVIGATIONBAR_HEIGHT 44.0
 
+// 搜索条高度宏定义
+#define SEARCHBAR_HEIGHT 44.0
+
 // 标签栏高度宏定义.
 #define TABBAR_HEIGHT 49.0
 
