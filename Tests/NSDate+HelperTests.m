@@ -32,11 +32,11 @@
 
 - (void)testFormatWithString {
 	NSString *dateString = [date formatWithString:@"yyyy-MM-dd"];
-	STAssertEqualObjects(dateString, @"2013-08-28", nil);
+	STAssertEqualObjects(dateString, @"2013-10-12", nil);
 }
 
 - (void)testFormatWithStyle {
 	NSString *dateString = [date formatWithStyle:NSDateFormatterShortStyle];
-	STAssertEqualObjects(dateString, @"8/28/13", nil);
+	STAssertEqualObjects(dateString, @"10/12/13", nil);
 }
 @end

@@ -8,6 +8,7 @@
 
 #import "UIColor+HelperTests.h"
 #import "UIColor+Helpers.h"
+#import "Tool.h"
 
 @interface UIColor_HelperTests () {
 	UIColor *color;

@@ -7,43 +7,45 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		695075B517CC57B200BF3810 /* ios-common-lib doc set */ = {
+		695075B517CC57B200BF3810 /* FLKit doc set */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 695075B617CC57B200BF3810 /* Build configuration list for PBXAggregateTarget "ios-common-lib doc set" */;
+			buildConfigurationList = 695075B617CC57B200BF3810 /* Build configuration list for PBXAggregateTarget "FLKit doc set" */;
 			buildPhases = (
 				695075B917CC57C400BF3810 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = "ios-common-lib doc set";
+			name = "FLKit doc set";
 			productName = "ios-common-lib doc set";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		69428D5E17F2D5BD007BB7E9 /* UIFont+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69428D5D17F2D5BD007BB7E9 /* UIFont+Helpers.m */; };
-		695075B317CC576600BF3810 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075AF17CC576600BF3810 /* BaseViewController.m */; };
-		695075B417CC576600BF3810 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075B117CC576600BF3810 /* NSLogExtend.m */; };
+		69250D121809296F002DE594 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D021809296F002DE594 /* BaseViewController.m */; };
+		69250D131809296F002DE594 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D021809296F002DE594 /* BaseViewController.m */; };
+		69250D141809296F002DE594 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D051809296F002DE594 /* NSDate+Helpers.m */; };
+		69250D151809296F002DE594 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D051809296F002DE594 /* NSDate+Helpers.m */; };
+		69250D161809296F002DE594 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D071809296F002DE594 /* NSLogExtend.m */; };
+		69250D171809296F002DE594 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D071809296F002DE594 /* NSLogExtend.m */; };
+		69250D181809296F002DE594 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D091809296F002DE594 /* NSString+Helpers.m */; };
+		69250D191809296F002DE594 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D091809296F002DE594 /* NSString+Helpers.m */; };
+		69250D1A1809296F002DE594 /* NSUserDefaults+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D0B1809296F002DE594 /* NSUserDefaults+Helpers.m */; };
+		69250D1B1809296F002DE594 /* NSUserDefaults+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D0B1809296F002DE594 /* NSUserDefaults+Helpers.m */; };
+		69250D1C1809296F002DE594 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D0D1809296F002DE594 /* Tool.m */; };
+		69250D1D1809296F002DE594 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D0D1809296F002DE594 /* Tool.m */; };
+		69250D1E1809296F002DE594 /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D0F1809296F002DE594 /* UIColor+Helpers.m */; };
+		69250D1F1809296F002DE594 /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D0F1809296F002DE594 /* UIColor+Helpers.m */; };
+		69250D201809296F002DE594 /* UIFont+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D111809296F002DE594 /* UIFont+Helpers.m */; };
+		69250D211809296F002DE594 /* UIFont+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69250D111809296F002DE594 /* UIFont+Helpers.m */; };
 		695075C417CC745700BF3810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
 		695075D317CC746A00BF3810 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695075D217CC746A00BF3810 /* SenTestingKit.framework */; };
 		695075D517CC747A00BF3810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695075D417CC747A00BF3810 /* UIKit.framework */; };
 		695075DF17CC751000BF3810 /* NSLogExtendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075DE17CC751000BF3810 /* NSLogExtendTests.m */; };
-		695075E717CC762300BF3810 /* NSLogExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 695075B117CC576600BF3810 /* NSLogExtend.m */; };
 		695075F517CC78EA00BF3810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695075F317CC78EA00BF3810 /* InfoPlist.strings */; };
 		695075F617CC78F300BF3810 /* Tests-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 695075EA17CC776700BF3810 /* Tests-Prefix.pch */; };
 		695993A317C757B20095C79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695993A217C757B20095C79F /* Foundation.framework */; };
-		69BB0B0A17E019EE00DC02F5 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB0B0917E019EE00DC02F5 /* Tool.m */; };
-		69BB0B0B17E019EE00DC02F5 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB0B0917E019EE00DC02F5 /* Tool.m */; };
-		69C549F417CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */; };
-		69C549F517CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */; };
-		69C549F817CDF44700AF086E /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549F717CDF44700AF086E /* UIColor+Helpers.m */; };
-		69C549F917CDF44700AF086E /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549F717CDF44700AF086E /* UIColor+Helpers.m */; };
 		69C549FC17CDF71200AF086E /* UIColor+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C549FB17CDF71200AF086E /* UIColor+HelperTests.m */; };
-		69C99D4917CD9F3000177A23 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4817CD9F3000177A23 /* NSString+Helpers.m */; };
-		69C99D4A17CD9F3000177A23 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4817CD9F3000177A23 /* NSString+Helpers.m */; };
 		69C99D4F17CDC8BC00177A23 /* NSString+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D4E17CDC8BC00177A23 /* NSString+HelperTests.m */; };
-		69C99D5217CDE07700177A23 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D5117CDE07700177A23 /* NSDate+Helpers.m */; };
-		69C99D5317CDE07700177A23 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D5117CDE07700177A23 /* NSDate+Helpers.m */; };
 		69C99D5617CDE2C500177A23 /* NSDate+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C99D5517CDE2C500177A23 /* NSDate+HelperTests.m */; };
 /* End PBXBuildFile section */
 
@@ -60,12 +62,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		69428D5C17F2D5BD007BB7E9 /* UIFont+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Helpers.h"; sourceTree = "<group>"; };
-		69428D5D17F2D5BD007BB7E9 /* UIFont+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Helpers.m"; sourceTree = "<group>"; };
-		695075AE17CC576600BF3810 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		695075AF17CC576600BF3810 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		695075B017CC576600BF3810 /* NSLogExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogExtend.h; sourceTree = "<group>"; };
-		695075B117CC576600BF3810 /* NSLogExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogExtend.m; sourceTree = "<group>"; };
+		69250D011809296F002DE594 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = FLKit/BaseViewController.h; sourceTree = SOURCE_ROOT; };
+		69250D021809296F002DE594 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = FLKit/BaseViewController.m; sourceTree = SOURCE_ROOT; };
+		69250D031809296F002DE594 /* FLKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FLKit-Prefix.pch"; path = "FLKit/FLKit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		69250D041809296F002DE594 /* NSDate+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Helpers.h"; path = "FLKit/NSDate+Helpers.h"; sourceTree = SOURCE_ROOT; };
+		69250D051809296F002DE594 /* NSDate+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Helpers.m"; path = "FLKit/NSDate+Helpers.m"; sourceTree = SOURCE_ROOT; };
+		69250D061809296F002DE594 /* NSLogExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLogExtend.h; path = FLKit/NSLogExtend.h; sourceTree = SOURCE_ROOT; };
+		69250D071809296F002DE594 /* NSLogExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogExtend.m; path = FLKit/NSLogExtend.m; sourceTree = SOURCE_ROOT; };
+		69250D081809296F002DE594 /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Helpers.h"; path = "FLKit/NSString+Helpers.h"; sourceTree = SOURCE_ROOT; };
+		69250D091809296F002DE594 /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Helpers.m"; path = "FLKit/NSString+Helpers.m"; sourceTree = SOURCE_ROOT; };
+		69250D0A1809296F002DE594 /* NSUserDefaults+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Helpers.h"; path = "FLKit/NSUserDefaults+Helpers.h"; sourceTree = SOURCE_ROOT; };
+		69250D0B1809296F002DE594 /* NSUserDefaults+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Helpers.m"; path = "FLKit/NSUserDefaults+Helpers.m"; sourceTree = SOURCE_ROOT; };
+		69250D0C1809296F002DE594 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tool.h; path = FLKit/Tool.h; sourceTree = SOURCE_ROOT; };
+		69250D0D1809296F002DE594 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tool.m; path = FLKit/Tool.m; sourceTree = SOURCE_ROOT; };
+		69250D0E1809296F002DE594 /* UIColor+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Helpers.h"; path = "FLKit/UIColor+Helpers.h"; sourceTree = SOURCE_ROOT; };
+		69250D0F1809296F002DE594 /* UIColor+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Helpers.m"; path = "FLKit/UIColor+Helpers.m"; sourceTree = SOURCE_ROOT; };
+		69250D101809296F002DE594 /* UIFont+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+Helpers.h"; path = "FLKit/UIFont+Helpers.h"; sourceTree = SOURCE_ROOT; };
+		69250D111809296F002DE594 /* UIFont+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Helpers.m"; path = "FLKit/UIFont+Helpers.m"; sourceTree = SOURCE_ROOT; };
 		695075BF17CC745700BF3810 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695075D217CC746A00BF3810 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		695075D417CC747A00BF3810 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -74,24 +87,14 @@
 		695075E817CC773D00BF3810 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		695075EA17CC776700BF3810 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		695075F417CC78EA00BF3810 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6959939F17C757B20095C79F /* libios-common-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-common-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6959939F17C757B20095C79F /* libFLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		695993A217C757B20095C79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		695993A617C757B20095C79F /* ios-common-lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-common-lib-Prefix.pch"; sourceTree = "<group>"; };
-		69BB0B0817E019EE00DC02F5 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
-		69BB0B0917E019EE00DC02F5 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
-		69C549F217CDF18F00AF086E /* NSUserDefaults+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Helpers.h"; sourceTree = "<group>"; };
-		69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Helpers.m"; sourceTree = "<group>"; };
-		69C549F617CDF44700AF086E /* UIColor+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helpers.h"; sourceTree = "<group>"; };
-		69C549F717CDF44700AF086E /* UIColor+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helpers.m"; sourceTree = "<group>"; };
+		695993A617C757B20095C79F /* FLKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLKit-Prefix.pch"; sourceTree = "<group>"; };
 		69C549FA17CDF71200AF086E /* UIColor+HelperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HelperTests.h"; sourceTree = "<group>"; };
 		69C549FB17CDF71200AF086E /* UIColor+HelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HelperTests.m"; sourceTree = "<group>"; };
-		69C99D4717CD9F3000177A23 /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
-		69C99D4817CD9F3000177A23 /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
 		69C99D4B17CDC65E00177A23 /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
 		69C99D4D17CDC8BC00177A23 /* NSString+HelperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HelperTests.h"; sourceTree = "<group>"; };
 		69C99D4E17CDC8BC00177A23 /* NSString+HelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HelperTests.m"; sourceTree = "<group>"; };
-		69C99D5017CDE07700177A23 /* NSDate+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helpers.h"; sourceTree = "<group>"; };
-		69C99D5117CDE07700177A23 /* NSDate+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helpers.m"; sourceTree = "<group>"; };
 		69C99D5417CDE2C500177A23 /* NSDate+HelperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HelperTests.h"; sourceTree = "<group>"; };
 		69C99D5517CDE2C500177A23 /* NSDate+HelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HelperTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +150,7 @@
 		6959939617C757B20095C79F = {
 			isa = PBXGroup;
 			children = (
-				695993A417C757B20095C79F /* ios-common-lib */,
+				695993A417C757B20095C79F /* FLKit */,
 				695075C517CC745700BF3810 /* Tests */,
 				695993A117C757B20095C79F /* Frameworks */,
 				695993A017C757B20095C79F /* Products */,
@@ -157,7 +160,7 @@
 		695993A017C757B20095C79F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6959939F17C757B20095C79F /* libios-common-lib.a */,
+				6959939F17C757B20095C79F /* libFLKit.a */,
 				695075BF17CC745700BF3810 /* Tests.octest */,
 			);
 			name = Products;
@@ -174,34 +177,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		695993A417C757B20095C79F /* ios-common-lib */ = {
+		695993A417C757B20095C79F /* FLKit */ = {
 			isa = PBXGroup;
 			children = (
-				695075AE17CC576600BF3810 /* BaseViewController.h */,
-				695075AF17CC576600BF3810 /* BaseViewController.m */,
-				695075B017CC576600BF3810 /* NSLogExtend.h */,
-				695075B117CC576600BF3810 /* NSLogExtend.m */,
-				69C99D4717CD9F3000177A23 /* NSString+Helpers.h */,
-				69C99D4817CD9F3000177A23 /* NSString+Helpers.m */,
-				69C99D5017CDE07700177A23 /* NSDate+Helpers.h */,
-				69C99D5117CDE07700177A23 /* NSDate+Helpers.m */,
-				69C549F217CDF18F00AF086E /* NSUserDefaults+Helpers.h */,
-				69C549F317CDF18F00AF086E /* NSUserDefaults+Helpers.m */,
-				69C549F617CDF44700AF086E /* UIColor+Helpers.h */,
-				69C549F717CDF44700AF086E /* UIColor+Helpers.m */,
-				69428D5C17F2D5BD007BB7E9 /* UIFont+Helpers.h */,
-				69428D5D17F2D5BD007BB7E9 /* UIFont+Helpers.m */,
-				69BB0B0817E019EE00DC02F5 /* Tool.h */,
-				69BB0B0917E019EE00DC02F5 /* Tool.m */,
+				69250D011809296F002DE594 /* BaseViewController.h */,
+				69250D021809296F002DE594 /* BaseViewController.m */,
+				69250D031809296F002DE594 /* FLKit-Prefix.pch */,
+				69250D041809296F002DE594 /* NSDate+Helpers.h */,
+				69250D051809296F002DE594 /* NSDate+Helpers.m */,
+				69250D061809296F002DE594 /* NSLogExtend.h */,
+				69250D071809296F002DE594 /* NSLogExtend.m */,
+				69250D081809296F002DE594 /* NSString+Helpers.h */,
+				69250D091809296F002DE594 /* NSString+Helpers.m */,
+				69250D0A1809296F002DE594 /* NSUserDefaults+Helpers.h */,
+				69250D0B1809296F002DE594 /* NSUserDefaults+Helpers.m */,
+				69250D0C1809296F002DE594 /* Tool.h */,
+				69250D0D1809296F002DE594 /* Tool.m */,
+				69250D0E1809296F002DE594 /* UIColor+Helpers.h */,
+				69250D0F1809296F002DE594 /* UIColor+Helpers.m */,
+				69250D101809296F002DE594 /* UIFont+Helpers.h */,
+				69250D111809296F002DE594 /* UIFont+Helpers.m */,
 				695993A517C757B20095C79F /* Supporting Files */,
 			);
+			name = FLKit;
 			path = "ios-common-lib";
 			sourceTree = "<group>";
 		};
 		695993A517C757B20095C79F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				695993A617C757B20095C79F /* ios-common-lib-Prefix.pch */,
+				695993A617C757B20095C79F /* FLKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,9 +232,9 @@
 			productReference = 695075BF17CC745700BF3810 /* Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		6959939E17C757B20095C79F /* ios-common-lib */ = {
+		6959939E17C757B20095C79F /* FLKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 695993AD17C757B20095C79F /* Build configuration list for PBXNativeTarget "ios-common-lib" */;
+			buildConfigurationList = 695993AD17C757B20095C79F /* Build configuration list for PBXNativeTarget "FLKit" */;
 			buildPhases = (
 				6959939B17C757B20095C79F /* Sources */,
 				6959939C17C757B20095C79F /* Frameworks */,
@@ -239,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = "ios-common-lib";
+			name = FLKit;
 			productName = "ios-common-lib";
-			productReference = 6959939F17C757B20095C79F /* libios-common-lib.a */;
+			productReference = 6959939F17C757B20095C79F /* libFLKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +258,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = netease;
 			};
-			buildConfigurationList = 6959939A17C757B20095C79F /* Build configuration list for PBXProject "ios-common-lib" */;
+			buildConfigurationList = 6959939A17C757B20095C79F /* Build configuration list for PBXProject "FLKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,8 +270,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6959939E17C757B20095C79F /* ios-common-lib */,
-				695075B517CC57B200BF3810 /* ios-common-lib doc set */,
+				6959939E17C757B20095C79F /* FLKit */,
+				695075B517CC57B200BF3810 /* FLKit doc set */,
 				695075BE17CC745700BF3810 /* Tests */,
 			);
 		};
@@ -318,16 +323,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				695075E717CC762300BF3810 /* NSLogExtend.m in Sources */,
 				695075DF17CC751000BF3810 /* NSLogExtendTests.m in Sources */,
-				69C99D4A17CD9F3000177A23 /* NSString+Helpers.m in Sources */,
 				69C99D4F17CDC8BC00177A23 /* NSString+HelperTests.m in Sources */,
-				69C99D5317CDE07700177A23 /* NSDate+Helpers.m in Sources */,
 				69C99D5617CDE2C500177A23 /* NSDate+HelperTests.m in Sources */,
-				69C549F517CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */,
-				69C549F917CDF44700AF086E /* UIColor+Helpers.m in Sources */,
 				69C549FC17CDF71200AF086E /* UIColor+HelperTests.m in Sources */,
-				69BB0B0B17E019EE00DC02F5 /* Tool.m in Sources */,
+				69250D131809296F002DE594 /* BaseViewController.m in Sources */,
+				69250D151809296F002DE594 /* NSDate+Helpers.m in Sources */,
+				69250D171809296F002DE594 /* NSLogExtend.m in Sources */,
+				69250D191809296F002DE594 /* NSString+Helpers.m in Sources */,
+				69250D1B1809296F002DE594 /* NSUserDefaults+Helpers.m in Sources */,
+				69250D1D1809296F002DE594 /* Tool.m in Sources */,
+				69250D1F1809296F002DE594 /* UIColor+Helpers.m in Sources */,
+				69250D211809296F002DE594 /* UIFont+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,14 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				695075B317CC576600BF3810 /* BaseViewController.m in Sources */,
-				695075B417CC576600BF3810 /* NSLogExtend.m in Sources */,
-				69C99D4917CD9F3000177A23 /* NSString+Helpers.m in Sources */,
-				69C99D5217CDE07700177A23 /* NSDate+Helpers.m in Sources */,
-				69C549F417CDF18F00AF086E /* NSUserDefaults+Helpers.m in Sources */,
-				69C549F817CDF44700AF086E /* UIColor+Helpers.m in Sources */,
-				69BB0B0A17E019EE00DC02F5 /* Tool.m in Sources */,
-				69428D5E17F2D5BD007BB7E9 /* UIFont+Helpers.m in Sources */,
+				69250D121809296F002DE594 /* BaseViewController.m in Sources */,
+				69250D141809296F002DE594 /* NSDate+Helpers.m in Sources */,
+				69250D161809296F002DE594 /* NSLogExtend.m in Sources */,
+				69250D181809296F002DE594 /* NSString+Helpers.m in Sources */,
+				69250D1A1809296F002DE594 /* NSUserDefaults+Helpers.m in Sources */,
+				69250D1C1809296F002DE594 /* Tool.m in Sources */,
+				69250D1E1809296F002DE594 /* UIColor+Helpers.m in Sources */,
+				69250D201809296F002DE594 /* UIFont+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,14 +370,14 @@
 		695075B717CC57B200BF3810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FLKit doc set";
 			};
 			name = Debug;
 		};
 		695075B817CC57B200BF3810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FLKit doc set";
 			};
 			name = Release;
 		};
@@ -462,7 +469,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/ios_common_lib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ios-common-lib/ios-common-lib-Prefix.pch";
+				GCC_PREFIX_HEADER = "ios-common-lib/FLKit-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,7 +479,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FLKit;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -482,7 +489,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/ios_common_lib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ios-common-lib/ios-common-lib-Prefix.pch";
+				GCC_PREFIX_HEADER = "ios-common-lib/FLKit-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,7 +499,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FLKit;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -500,7 +507,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		695075B617CC57B200BF3810 /* Build configuration list for PBXAggregateTarget "ios-common-lib doc set" */ = {
+		695075B617CC57B200BF3810 /* Build configuration list for PBXAggregateTarget "FLKit doc set" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				695075B717CC57B200BF3810 /* Debug */,
@@ -518,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6959939A17C757B20095C79F /* Build configuration list for PBXProject "ios-common-lib" */ = {
+		6959939A17C757B20095C79F /* Build configuration list for PBXProject "FLKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				695993AB17C757B20095C79F /* Debug */,
@@ -527,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		695993AD17C757B20095C79F /* Build configuration list for PBXNativeTarget "ios-common-lib" */ = {
+		695993AD17C757B20095C79F /* Build configuration list for PBXNativeTarget "FLKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				695993AE17C757B20095C79F /* Debug */,
